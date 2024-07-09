@@ -16,6 +16,13 @@ docker-compose up
 ```
 O servidor estará disponível em http://localhost:8000.
 
+### Comando para Executar Migrações
+Para aplicar as migrações e configurar o banco de dados, execute o seguinte comando Yii2:
+
+```bash
+docker-compose exec php php yii migrate/up --interactive=0
+```
+
 ## Comandos Úteis
 Criar Usuário
 Para criar um usuário administrativo, execute o seguinte comando Yii2:
