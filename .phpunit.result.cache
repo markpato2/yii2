@@ -1,0 +1,1 @@
+{"version":1,"defects":{"tests\\UserControllerTest::testLoginSuccess":8,"tests\\UserControllerTest::testLoginFailure":8},"times":{"tests\\UserControllerTest::testLoginSuccess":0.005,"tests\\UserControllerTest::testLoginFailure":0}}
