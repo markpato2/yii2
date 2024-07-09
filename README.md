@@ -16,6 +16,13 @@ docker-compose up
 ```
 O servidor estará disponível em http://localhost:8000.
 
+### Comandos Composer
+Antes de iniciar o projeto, certifique-se de instalar as dependências do Composer. No diretório raiz do projeto, execute:
+
+```bash
+docker-compose exec php composer install
+```
+
 ### Comando para Executar Migrações
 Para aplicar as migrações e configurar o banco de dados, execute o seguinte comando Yii2:
 
